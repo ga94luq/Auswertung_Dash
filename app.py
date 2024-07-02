@@ -2,26 +2,44 @@ import pandas as pd
 import plotly.express as px
 from dash import dcc, html, Dash
 from dash.dependencies import Input, Output
+import re
 
-df = pd.read_csv('https://raw.githubusercontent.com/ga94luq/Auswertung_Dash/main/Daten_CSV.csv', delimiter=';')
+Pfad = 'https://raw.githubusercontent.com/ga94luq/Auswertung_Dash/main/Daten_CSV.csv'
+df = pd.read_csv(Pfad, delimiter=';')
 df = pd.DataFrame(df)
+def extract_last_three_letters(cell):
+    # Nur Buchstaben extrahieren
+    letters = re.sub(r'[^a-zA-Z]', '', cell)
+    # Die letzten drei Buchstaben zurückgeben
+    return letters[-3:]
 
+
+df['Zellkürzel'] = df['Zelle'].apply(extract_last_three_letters)
 data = df
-external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
+
+
+Optionen = list(df.columns) + ['None']
 app = Dash(__name__)
 server = app.server
 Breite_Boxen = '300px'
 # Layout der Dash App
 app.layout = html.Div([
     html.H1('Auswertung der Literatur', style={'text-align': 'center', 'color': 'white'}),
+   
+    #dcc.Input(id='Breite-Plot', type='number', value=1500),
+    #html.Div(id='Breite-desPlot'),
+    #dcc.Input(id='Hight-Plot', type='number', value=1250),
+    #html.Div(id='Hight-Plot'),
+
 
     html.Label('Zelle:', style={'color': 'white'}),
     dcc.Checklist(
         id='cell-checklist',
         options=[{'label': cell, 'value': cell} for cell in df['Zelle'].unique()],
-        value=df['Zelle'].unique().tolist(),
-        inline=True,  # Horizontal layout
+        #value=df['Zelle'].unique().tolist(),
+        value=['NCR18650PD', 'NCR18650B', 'NCR18650BD', 'UR18650E'],
+        inline=True,  
         style={'display': 'flex', 'flex-wrap': 'wrap', 'color': 'white'}
     ),
 
@@ -70,10 +88,22 @@ app.layout = html.Div([
     ], style={'margin-bottom': '20px'}),
 
     html.Div([
-        html.Label('Rowauswahl: Hier Festlegen nach welchem Kriterium Spalten gebildet werden sollen. Nur 1 auswählen.',
+        html.Label('Rowauswahl: Hier Festlegen nach welchem Kriterium Reihen gebildet werden sollen. Nur 1 auswählen.',
                    style={'color': 'white'}),
         dcc.Checklist(
             id='RowAuswahl-checklist',
+            options=[{'label': col, 'value': col} for col in df.columns],
+            value=[],
+            inline=True,  # Horizontal layout
+            style={'display': 'flex', 'flex-wrap': 'wrap', 'color': 'white'}
+        ),
+    ], style={'margin-bottom': '20px'}),
+    
+    html.Div([
+        html.Label('Spaltenauswahl: Hier Festlegen nach welchem Kriterium Spalten gebildet werden sollen. Nur 1 auswählen.',
+                   style={'color': 'white'}),
+        dcc.Checklist(
+            id='SpaltenAuswahl-checklist',
             options=[{'label': col, 'value': col} for col in df.columns],
             value=[],
             inline=True,  # Horizontal layout
@@ -142,11 +172,34 @@ app.layout = html.Div([
             max=df['Dauer d. Alterung in Tagen'].max(),
             step=1,  # Anpassung je nach Bedarf
             value=[df['Dauer d. Alterung in Tagen'].min(), df['Dauer d. Alterung in Tagen'].max()],
-            tooltip={"placement": "bottom", "always_visible": False},
+            tooltip={"placement": "bottom", "always_visible": True},
             marks=None
         ),
     ], style={'margin-bottom': '20px', 'width': '1000px'}),
-
+    html.Div([
+        html.Label('Zu berücksichtigender Temperaturbereich', style={'color': 'white'}),
+        dcc.RangeSlider(
+            id='Temperatur_Range',
+            min=df['Temperatur'].min(),
+            max=df['Temperatur'].max(),
+            step=1,  # Anpassung je nach Bedarf
+            value=[df['Temperatur'].min(), df['Temperatur'].max()],
+            tooltip={"placement": "bottom", "always_visible": True},
+            marks={i: f'{i}' for i in [0, 25, 30, 40, 45, 50, 60]}
+        ),
+    ], style={'margin-bottom': '20px', 'width': '1000px'}),
+    html.Div([
+        html.Label('Hier auswählen welche Beschriftung zugeordnet werden soll',
+                   style={'color': 'white'}),
+        dcc.Dropdown(
+            id='Beschriftungs-dropdown',
+            options = Optionen,
+            value='None',
+            clearable=True,
+            multi=False,
+            style={'color': 'black', 'width': Breite_Boxen}
+        ),
+    ], style={'margin-bottom': '20px'}),
     # Div zur Darstellung des Plots
     html.Div([
         dcc.Graph(id='scatter-plot-without-facet'),
@@ -157,105 +210,252 @@ app.layout = html.Div([
 # Callback zur Aktualisierung des Scatter Plots
 @app.callback(
 Output('scatter-plot-without-facet', 'figure'),
-[Input('cell-checklist', 'value'),
+[#Input('Breite-Plot', 'value'), 
+ #Input('Hight-Plot', 'value'),
+ Input('cell-checklist', 'value'),
  Input('paper-checklist', 'value'),
  Input('chemie-checklist', 'value'),
  Input('RowAuswahl-checklist', 'value'),
+ Input('SpaltenAuswahl-checklist', 'value'),
  Input('Farbauswahl-dropdown', 'value'),
  Input('Styleauswahl-dropdown', 'value'),
  Input('Informationsauswahl-checklist', 'value'),
  Input('Alterungsdauer-input', 'value'),
  Input('DauerMin_Range', 'value'),
  Input('Y_Achse_dropdown', 'value'),
- Input('X_Achse_dropdown', 'value')]
+ Input('X_Achse_dropdown', 'value'),
+ Input('Temperatur_Range', 'value'), 
+ Input('Beschriftungs-dropdown', 'value')]
 )
 
-def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAuswahl, Farbauswahl, Styleauswahl,
-                        Informationsauswahl, Dauer_in_Tagen, DauerMin, Y_Achse, X_Achse):
+def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAuswahl, ColAuswahl, Farbauswahl, Styleauswahl,
+                        Informationsauswahl, Dauer_in_Tagen, DauerMin, Y_Achse, X_Achse, Temperatur, Beschriftung):
     filtered_df = df[
         df['Zelle'].isin(selected_cells) &
         df['Paper'].isin(selected_papers) &
         df['Chemie'].isin(selected_chemies) &
-        df['Dauer d. Alterung in Tagen'].between(DauerMin[0], DauerMin[1])
+        df['Dauer d. Alterung in Tagen'].between(DauerMin[0], DauerMin[1]) &
+        df['Temperatur'].between(Temperatur[0], Temperatur[1])
         ]
-
+    Breite = 2000
+    Hoehe = 1500
     filtered_df['Rel. Kapa. % / Tag'] = data['Rel. Kapa. % / Tag'] * Dauer_in_Tagen
+    if Beschriftung=='None':
+        if len(ColAuswahl) == 0:
+            if len(RowAuswahl) == 0:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                )
+            elif len(RowAuswahl) == 1:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    facet_row=RowAuswahl[0]
+                )
+            else:
+                print('Fehler - Nur eine Auswahl erlaubt!.')
+                fig = px.scatter()  # Empty figure
+        else:
+            if len(RowAuswahl) == 0:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    facet_col=ColAuswahl[0]
+                )
+            elif len(RowAuswahl) == 1:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    facet_row=RowAuswahl[0], 
+                    facet_col=ColAuswahl[0]
+                )
+            else:
+                print('Fehler - Nur eine Auswahl erlaubt!.')
+                fig = px.scatter()  # Empty figure
+            
+       
 
-    if len(RowAuswahl) == 0:
-        fig = px.scatter(
-            filtered_df,
-            x=X_Achse,
-            y=Y_Achse,
-            color=Farbauswahl,
-            symbol=Styleauswahl,
-            labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
-            hover_data=Informationsauswahl,
-        )
-    elif len(RowAuswahl) == 1:
-        fig = px.scatter(
-            filtered_df,
-            x=X_Achse,
-            y=Y_Achse,
-            color=Farbauswahl,
-            symbol=Styleauswahl,
-            labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
-            hover_data=Informationsauswahl,
-            facet_row=RowAuswahl[0]
-        )
+        fig.update_traces(marker=dict(size=15))
+        if Dauer_in_Tagen < 2:
+            fig.update_layout(
+                title='Auswertung der Literaturergebnisse',
+                xaxis_title=f'{X_Achse}',
+                yaxis_title=f'{Y_Achse}',
+                legend_title_text='Legende',
+                font=dict(
+                    family='Arial',
+                    size=14,
+                    color='white'  # White font color
+                ),
+                height=Hoehe,  # Set the height of the plot
+                width=Breite,  # Set the width of the plot
+                plot_bgcolor='grey',  # Dark background
+                paper_bgcolor='grey',  # Dark background
+                font_color='white',  # White font color
+                legend = dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=-.5,
+                    #xanchor="center",
+                    x=0.5
+                )
+            )
+        else:
+            y_Achsenbeschriftung = f'voraussichtlicher {Y_Achse} nach {Dauer_in_Tagen} Tagen'
+            fig.update_layout(
+                title='Auswertung der Literaturergebnisse',
+                xaxis_title=f'{X_Achse}',
+                yaxis_title=y_Achsenbeschriftung,
+                legend_title_text='Legende:',
+                font=dict(
+                    family='Arial',
+                    size=14,
+                    color='white'  # White font color
+                ),
+                height=Hoehe,  # Set the height of the plot
+                width=Breite,  # Set the width of the plot
+                plot_bgcolor='grey',  # Dark background
+                paper_bgcolor='grey',  # Dark background
+                font_color='white',  # White font color
+                legend=dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=-1,
+                    xanchor="center",
+                    x=0.5
+                )
+            )
     else:
-        print('Fehler - Nur eine Auswahl erlaubt!.')
-        fig = px.scatter()  # Empty figure
+        if len(ColAuswahl) == 0:
+            if len(RowAuswahl) == 0:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    text=filtered_df[Beschriftung]
+                )
+            elif len(RowAuswahl) == 1:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    facet_row=RowAuswahl[0], 
+                    text=filtered_df[Beschriftung]
+                )
+            else:
+                print('Fehler - Nur eine Auswahl erlaubt!.')
+                fig = px.scatter()  # Empty figure
+        else: 
+            if len(RowAuswahl) == 0:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    text=filtered_df[Beschriftung], 
+                    facet_col=ColAuswahl[0]
+                )
+            elif len(RowAuswahl) == 1:
+                fig = px.scatter(
+                    filtered_df,
+                    x=X_Achse,
+                    y=Y_Achse,
+                    color=Farbauswahl,
+                    symbol=Styleauswahl,
+                    labels={'(rel. Kal. Alterung %)/Tag': '(rel. Kal. Alterung %)/Tag'},
+                    hover_data=Informationsauswahl,
+                    facet_row=RowAuswahl[0], 
+                    text=filtered_df[Beschriftung], 
+                    facet_col=ColAuswahl[0]
+                )
+            else:
+                print('Fehler - Nur eine Auswahl erlaubt!.')
+                fig = px.scatter()  # Empty figure
+            
 
-    fig.update_traces(marker=dict(size=15))
-    if Dauer_in_Tagen < 2:
-        fig.update_layout(
-            title='Auswertung der Literaturergebnisse',
-            xaxis_title=f'{X_Achse}',
-            yaxis_title=f'{Y_Achse}',
-            legend_title_text='Legende',
-            font=dict(
-                family='Arial',
-                size=14,
-                color='white'  # White font color
-            ),
-            height=1250,  # Set the height of the plot
-            width=1500,  # Set the width of the plot
-            plot_bgcolor='grey',  # Dark background
-            paper_bgcolor='grey',  # Dark background
-            font_color='white',  # White font color
-            legend = dict(
-                orientation="h",
-                yanchor="bottom",
-                y=-.5,
-                #xanchor="center",
-                x=0.5
+            fig.update_traces(marker=dict(size=15))
+        if Dauer_in_Tagen < 2:
+            fig.update_layout(
+                title='Auswertung der Literaturergebnisse',
+                xaxis_title=f'{X_Achse}',
+                yaxis_title=f'{Y_Achse}',
+                legend_title_text='Legende',
+                font=dict(
+                    family='Arial',
+                    size=14,
+                    color='white'  # White font color
+                ),
+                height=Hoehe,  # Set the height of the plot
+                width=Breite,  # Set the width of the plot
+                plot_bgcolor='grey',  # Dark background
+                paper_bgcolor='grey',  # Dark background
+                font_color='white',  # White font color
+                legend = dict(
+                    orientation="h",
+                    yanchor="bottom",
+                    y=-.5,
+                    #xanchor="center",
+                    x=0.5
+                )
             )
-        )
-    else:
-        y_Achsenbeschriftung = f'voraussichtlicher {Y_Achse} nach {Dauer_in_Tagen} Tagen'
-        fig.update_layout(
-            title='Auswertung der Literaturergebnisse',
-            xaxis_title=f'{X_Achse}',
-            yaxis_title=y_Achsenbeschriftung,
-            legend_title_text='Legende:',
-            font=dict(
-                family='Arial',
-                size=14,
-                color='white'  # White font color
-            ),
-            height=1250,  # Set the height of the plot
-            width=1500,  # Set the width of the plot
-            plot_bgcolor='grey',  # Dark background
-            paper_bgcolor='grey',  # Dark background
-            font_color='white',  # White font color
-            legend=dict(
-                orientation="h",
-                yanchor="bottom",
-                y=-.5,
-                xanchor="center",
-                x=0.5
+        else:
+            y_Achsenbeschriftung = f'voraussichtlicher {Y_Achse} nach {Dauer_in_Tagen} Tagen'
+            fig.update_layout(
+                    title='Auswertung der Literaturergebnisse',
+                    xaxis_title=f'{X_Achse}',
+                    yaxis_title=y_Achsenbeschriftung,
+                    legend_title_text='Legende:',
+                    font=dict(
+                        family='Arial',
+                        size=14,
+                        color='white'  # White font color
+                    ),
+                    height=Hoehe,  # Set the height of the plot
+                    width=Breite,  # Set the width of the plot
+                    plot_bgcolor='grey',  # Dark background
+                    paper_bgcolor='grey',  # Dark background
+                    font_color='white',  # White font color
+                    legend=dict(
+                        orientation="h",
+                        yanchor="bottom",
+                        y=-1,
+                        xanchor="center",
+                        x=0.5
+                    )
             )
-        )
+            fig.update_traces(textposition='top center')
 
     return fig
 
