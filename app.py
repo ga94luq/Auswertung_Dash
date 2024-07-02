@@ -3,7 +3,7 @@ import plotly.express as px
 from dash import dcc, html, Dash
 from dash.dependencies import Input, Output
 
-df = pd.read_csv('https://raw.githubusercontent.com/ga94luq/Literatur_Alterung/main/Daten_CSV.csv', delimiter=';')
+df = pd.read_csv('https://raw.githubusercontent.com/ga94luq/Auswertung_Dash/main/Daten_CSV.csv', delimiter=';')
 df = pd.DataFrame(df)
 
 data = df
