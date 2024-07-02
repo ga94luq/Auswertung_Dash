@@ -1,0 +1,433 @@
+﻿Zelle;Kapazität in mAh;Temperatur;Volt/SOC;Relative Kapazität in %;Dauer d. Alterung in Tagen;Rel. Kapa. % / Tag;Verlust an abs. Kapa in mAh;mAh/Tag;mAh/Jahr;Paper;Chemie;Art d. Alterung;Kondition der Alterung
+NCR18650PD;2800;25;0;0.984;288.0;0.005555556;44.8;0.155555556;57;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;0;0.967;285.0;0.011578947;92.4;0.324210526;118;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;0;0.967;300.0;0.011;92.4;0.308;112;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;0;0.976;300.0;0.008;67.2;0.224;82;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;0;0.984;300.0;0.005333333;44.8;0.149333333;55;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;0;0.974;300.0;0.008666667;53.3;0.177666667;65;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;0;0.981;300.0;0.006333333;38.95;0.129833333;47;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;0;0.989;300.0;0.003666667;22.55;0.075166667;27;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;40;0;0.977;270.0;0.008518519;25.3;0.093703704;34;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;0;0.999;270.0;0.00037037;1.1;0.004074074;1;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;0;0.938;512.3;0.012102284;127.1;0.248096818;91;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;2;1,016;30.0;-3383.333333;-2639000;-87966.66667;-32,107,833;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;2;1,015;60.0;-1690;-2636400;-43940;-16,038,100;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;2;1,010;90.0;-1121.111111;-2623400;-29148.88889;-10,639,344;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;2;1,011;120.0;-841.6666667;-2626000;-21883.33333;-7,987,417;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;60;2;1,028;30.0;-3423.333333;-2567500;-85583.33333;-31,237,917;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;2;1,021;60.0;-1700;-2550000;-42500;-15,512,500;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;2;1,012;90.0;-1123.333333;-2527500;-28083.33333;-10,250,417;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;2;1,004;120.0;-835.8333333;-2507500;-20895.83333;-7,626,979;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;60;2;1,062;30.0;-3536.666667;-2758600;-91953.33333;-33,562,967;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;2;1,051;60.0;-1750;-2730000;-45500;-16,607,500;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;2;1,046;90.0;-1161.111111;-2717000;-30188.88889;-11,018,944;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;2;1,038;120.0;-864.1666667;-2696200;-22468.33333;-8,200,942;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;2;1,108;30.0;-3690;-2214000;-73800;-26,937,000;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;2;1,100;60.0;-1831.666667;-2198000;-36633.33333;-13,371,167;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;2;1,112;90.0;-1234.444444;-2222000;-24688.88889;-9,011,444;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;2;1,116;120.0;-929.1666667;-2230000;-18583.33333;-6,782,917;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+INR18650-26F;2600;50;2;0.995;100.0;0.005;13;0.13;47;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;50;2;1,055;150.0;-702.6666667;-2740400;-18269.33333;-6,668,307;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;50;2;1,122;100.0;-1121;-2802500;-28025;-10,229,125;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;50;2;1,122;150.0;-747.3333333;-2802500;-18683.33333;-6,819,417;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;50;2;1,160;100.0;-1159;-3013400;-30134;-10,998,910;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;50;2;1,187;150.0;-790.6666667;-3083600;-20557.33333;-7,503,427;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;2;1,246;100.0;-1245;-2490000;-24900;-9,088,500;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;2;1,267;150.0;-844;-2532000;-16880;-6,161,200;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NCR18650PD;2800;25;0;0.992;267.0;0.002996255;22.4;0.083895131;31;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;0;0.971;258.0;0.01124031;81.2;0.314728682;115;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;12;0.985;267.0;0.005617978;42;0.157303371;57;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;12;0.943;258.0;0.022093023;159.6;0.618604651;226;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;28;0.978;267.0;0.0082397;61.6;0.23071161;84;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;28;0.927;258.0;0.028294574;204.4;0.792248062;289;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;45;0.978;267.0;0.0082397;61.6;0.23071161;84;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;45;0.918;258.0;0.031782946;229.6;0.889922481;325;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;62;0.955;267.0;0.016853933;126;0.471910112;172;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;62;0.899;258.0;0.039147287;282.8;1.096124031;400;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;76;0.956;267.0;0.016479401;123.2;0.461423221;168;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;76;0.884;258.0;0.04496124;324.8;1.258914729;460;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;87;0.958;267.0;0.015730337;117.6;0.440449438;161;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;87;0.889;258.0;0.043023256;310.8;1.204651163;440;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;100;0.965;267.0;0.013108614;98;0.367041199;134;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;55;100;0.895;258.0;0.040697674;294;1.139534884;416;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;5;0.979;288.0;0.007291667;58.8;0.204166667;75;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;5;0.954;285.0;0.016140351;128.8;0.451929825;165;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;5;0.954;300.0;0.015333333;128.8;0.429333333;157;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;5;0.967;300.0;0.011;92.4;0.308;112;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;5;0.980;300.0;0.006666667;56;0.186666667;68;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;5;0.953;300.0;0.015666667;96.35;0.321166667;117;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;5;0.971;300.0;0.009666667;59.45;0.198166667;72;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;5;0.986;300.0;0.004666667;28.7;0.095666667;35;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;5;0.926;270.0;0.027407407;81.4;0.301481481;110;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;5;0.964;270.0;0.013333333;39.6;0.146666667;54;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;5;0.993;270.0;0.002592593;7.7;0.028518519;10;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+NCR18650PD;2800;25;10;0.978;288.0;0.007638889;61.6;0.213888889;78;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;10;0.951;285.0;0.017192982;137.2;0.481403509;176;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;10;0.951;300.0;0.016333333;137.2;0.457333333;167;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;10;0.965;300.0;0.011666667;98;0.326666667;119;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;10;0.976;300.0;0.008;67.2;0.224;82;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;10;0.938;300.0;0.020666667;127.1;0.423666667;155;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;10;0.965;300.0;0.011666667;71.75;0.239166667;87;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;10;0.981;300.0;0.006333333;38.95;0.129833333;47;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;10;0.920;270.0;0.02962963;88;0.325925926;119;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;10;0.953;270.0;0.017407407;51.7;0.191481481;70;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;10;0.984;270.0;0.005925926;17.6;0.065185185;24;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;10;0.906;513.6;0.018302181;192.7;0.375194704;137;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;20;0.973;288.0;0.009375;75.6;0.2625;96;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;20;0.940;285.0;0.021052632;168;0.589473684;215;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.859;73.0;0.193150685;451.2;6.180821918;2,256;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.857;139.0;0.102877698;457.6;3.292086331;1,202;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.847;202.0;0.075742574;489.6;2.423762376;885;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.830;297.0;0.057239057;544;1.831649832;669;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.832;385.0;0.043636364;537.6;1.396363636;510;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;20;0.830;435.0;0.03908046;544;1.250574713;456;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.836;297.0;0.055218855;524.8;1.767003367;645;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.835;385.0;0.042857143;528;1.371428571;501;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.830;435.0;0.03908046;544;1.250574713;456;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.863;73.0;0.187671233;438.4;6.005479452;2,192;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.859;139.0;0.101438849;451.2;3.246043165;1,185;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;20;0.850;202.0;0.074257426;480;2.376237624;867;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.863;73.0;0.187671233;438.4;6.005479452;2,192;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.858;139.0;0.102158273;454.4;3.269064748;1,193;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.838;202.0;0.08019802;518.4;2.566336634;937;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.827;297.0;0.058249158;553.6;1.863973064;680;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.811;385.0;0.049090909;604.8;1.570909091;573;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;20;0.826;435.0;0.04;556.8;1.28;467;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;20;0.940;300.0;0.02;168;0.56;204;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;20;0.957;300.0;0.014333333;120.4;0.401333333;146;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;20;0.972;300.0;0.009333333;78.4;0.261333333;95;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;40;20;0.954;300.0;0.015333333;94.3;0.314333333;115;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;20;0.977;300.0;0.007666667;47.15;0.157166667;57;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;20;0.911;270.0;0.032962963;97.9;0.362592593;132;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;20;0.944;270.0;0.020740741;61.6;0.228148148;83;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;20;0.980;270.0;0.007407407;22;0.081481481;30;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;20;0.948;160.5;0.032398754;106.6;0.664174455;242;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;30;0.972;288.0;0.009722222;78.4;0.272222222;99;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;30;0.932;285.0;0.023859649;190.4;0.668070175;244;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;30;0.932;300.0;0.022666667;190.4;0.634666667;232;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;30;0.954;300.0;0.015333333;128.8;0.429333333;157;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;30;0.972;300.0;0.009333333;78.4;0.261333333;95;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;30;0.899;300.0;0.033666667;207.05;0.690166667;252;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;30;0.943;300.0;0.019;116.85;0.3895;142;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;30;0.975;300.0;0.008333333;51.25;0.170833333;62;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;30;0.899;270.0;0.037407407;111.1;0.411481481;150;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;30;0.938;270.0;0.022962963;68.2;0.252592593;92;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;30;0.973;270.0;0.01;29.7;0.11;40;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;30;0.819;515.3;0.03512517;371.05;0.720065981;263;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;38;1,011;30.0;-3366.666667;-2626000;-87533.33333;-31,949,667;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;38;1,004;60.0;-1671.666667;-2607800;-43463.33333;-15,864,117;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;38;1,001;90.0;-1111.111111;-2600000;-28888.88889;-10,544,444;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;38;0.995;120.0;0.004166667;13;0.108333333;40;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;60;38;1,015;30.0;-3380;-2535000;-84500;-30,842,500;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;38;1,004;60.0;-1671.666667;-2507500;-41791.66667;-15,253,958;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;38;0.991;90.0;0.01;22.5;0.25;91;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;38;0.981;120.0;0.015833333;47.5;0.395833333;144;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;60;38;1,058;30.0;-3523.333333;-2748200;-91606.66667;-33,436,433;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;38;1,048;60.0;-1745;-2722200;-45370;-16,560,050;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;38;1,037;90.0;-1151.111111;-2693600;-29928.88889;-10,924,044;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;38;1,024;120.0;-852.5;-2659800;-22165;-8,090,225;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;38;1,130;30.0;-3763.333333;-2258000;-75266.66667;-27,472,333;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;38;1,124;60.0;-1871.666667;-2246000;-37433.33333;-13,663,167;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;38;1,122;90.0;-1245.555556;-2242000;-24911.11111;-9,092,556;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;38;1,118;120.0;-930.8333333;-2234000;-18616.66667;-6,795,083;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+INR18650-26F;2600;50;38;1,045;100.0;-1044;-2714400;-27144;-9,907,560;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;50;38;1,039;150.0;-692;-2698800;-17992;-6,567,080;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;50;38;1,122;100.0;-1121;-2802500;-28025;-10,229,125;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;50;38;1,122;150.0;-747.3333333;-2802500;-18683.33333;-6,819,417;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;50;38;1,155;100.0;-1154;-3000400;-30004;-10,951,460;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;50;38;1,172;150.0;-780.6666667;-3044600;-20297.33333;-7,408,527;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;38;1,260;100.0;-1259;-2518000;-25180;-9,190,700;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;38;1,253;150.0;-834.6666667;-2504000;-16693.33333;-6,093,067;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NCR18650PD;2800;25;40;0.972;288.0;0.009722222;78.4;0.272222222;99;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;40;0.932;285.0;0.023859649;190.4;0.668070175;244;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;40;0.930;300.0;0.023333333;196;0.653333333;238;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;40;0.950;300.0;0.016666667;140;0.466666667;170;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;40;0.974;300.0;0.008666667;72.8;0.242666667;89;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;40;0.886;300.0;0.038;233.7;0.779;284;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;40;0.938;300.0;0.020666667;127.1;0.423666667;155;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;40;0.974;300.0;0.008666667;53.3;0.177666667;65;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;40;0.883;270.0;0.043333333;128.7;0.476666667;174;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;40;0.929;270.0;0.026296296;78.1;0.289259259;106;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;40;0.970;270.0;0.011111111;33;0.122222222;45;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;40;0.816;516.0;0.035658915;377.2;0.731007752;267;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;45;0.971;288.0;0.010069444;81.2;0.281944444;103;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;45;0.928;285.0;0.025263158;201.6;0.707368421;258;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;45;0.927;300.0;0.024333333;204.4;0.681333333;249;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;45;0.950;300.0;0.016666667;140;0.466666667;170;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;45;0.971;300.0;0.009666667;81.2;0.270666667;99;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;40;45;0.934;300.0;0.022;135.3;0.451;165;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;45;0.972;300.0;0.009333333;57.4;0.191333333;70;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;40;45;0.925;270.0;0.027777778;82.5;0.305555556;112;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;45;0.971;270.0;0.010740741;31.9;0.118148148;43;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+NCR18650PD;2800;25;50;0.970;288.0;0.010416667;84;0.291666667;106;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;50;0.927;285.0;0.025614035;204.4;0.717192982;262;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.862;73.0;0.189041096;441.6;6.049315068;2,208;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.861;139.0;0.1;444.8;3.2;1,168;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.854;202.0;0.072277228;467.2;2.312871287;844;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.838;297.0;0.054545455;518.4;1.745454545;637;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.832;385.0;0.043636364;537.6;1.396363636;510;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;50;0.837;435.0;0.037471264;521.6;1.19908046;438;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.862;73.0;0.189041096;441.6;6.049315068;2,208;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.862;139.0;0.099280576;441.6;3.176978417;1,160;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.846;202.0;0.076237624;492.8;2.43960396;890;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.838;297.0;0.054545455;518.4;1.745454545;637;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.828;385.0;0.044675325;550.4;1.42961039;522;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;50;0.836;435.0;0.037701149;524.8;1.206436782;440;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.858;73.0;0.194520548;454.4;6.224657534;2,272;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.853;139.0;0.105755396;470.4;3.384172662;1,235;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.838;202.0;0.08019802;518.4;2.566336634;937;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.829;297.0;0.057575758;547.2;1.842424242;672;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.819;385.0;0.047012987;579.2;1.504415584;549;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;50;0.823;435.0;0.040689655;566.4;1.302068966;475;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;50;0.928;300.0;0.024;201.6;0.672;245;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;50;0.950;300.0;0.016666667;140;0.466666667;170;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;50;0.971;300.0;0.009666667;81.2;0.270666667;99;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;50;0.878;300.0;0.040666667;250.1;0.833666667;304;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;50;0.933;300.0;0.022333333;137.35;0.457833333;167;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;50;0.972;300.0;0.009333333;57.4;0.191333333;70;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;50;0.883;270.0;0.043333333;128.7;0.476666667;174;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;50;0.933;270.0;0.024814815;73.7;0.272962963;100;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;50;0.971;270.0;0.010740741;31.9;0.118148148;43;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;50;0.903;161.7;0.059987631;198.85;1.229746444;449;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;55;0.968;288.0;0.011111111;89.6;0.311111111;114;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;55;0.925;285.0;0.026315789;210;0.736842105;269;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;55;0.926;300.0;0.024666667;207.2;0.690666667;252;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;55;0.946;300.0;0.018;151.2;0.504;184;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;55;0.969;300.0;0.010333333;86.8;0.289333333;106;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;40;55;0.933;300.0;0.022333333;137.35;0.457833333;167;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;55;0.971;300.0;0.009666667;59.45;0.198166667;72;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;55;0.882;270.0;0.043703704;129.8;0.480740741;175;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;55;0.928;270.0;0.026666667;79.2;0.293333333;107;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;55;0.972;270.0;0.01037037;30.8;0.114074074;42;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+NCR18650PD;2800;25;60;0.951;288.0;0.017013889;137.2;0.476388889;174;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;60;0.914;285.0;0.030175439;240.8;0.844912281;308;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;60;0.916;300.0;0.028;235.2;0.784;286;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;60;0.936;300.0;0.021333333;179.2;0.597333333;218;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;60;0.954;300.0;0.015333333;128.8;0.429333333;157;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;60;0.875;300.0;0.041666667;256.25;0.854166667;312;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;60;0.932;300.0;0.022666667;139.4;0.464666667;170;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;60;0.969;300.0;0.010333333;63.55;0.211833333;77;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;60;0.884;270.0;0.042962963;127.6;0.472592593;172;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;60;0.928;270.0;0.026666667;79.2;0.293333333;107;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;60;0.968;270.0;0.011851852;35.2;0.13037037;48;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;60;0.775;517.2;0.04350348;461.25;0.891821346;326;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;65;0.949;288.0;0.017708333;142.8;0.495833333;181;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;65;0.896;285.0;0.036491228;291.2;1.021754386;373;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;65;0.899;300.0;0.033666667;282.8;0.942666667;344;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;65;0.923;300.0;0.025666667;215.6;0.718666667;262;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;65;0.951;300.0;0.016333333;137.2;0.457333333;167;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;65;0.875;300.0;0.041666667;256.25;0.854166667;312;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;65;0.922;300.0;0.026;159.9;0.533;195;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;65;0.956;300.0;0.014666667;90.2;0.300666667;110;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;65;0.881;270.0;0.044074074;130.9;0.484814815;177;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;65;0.928;270.0;0.026666667;79.2;0.293333333;107;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;65;0.967;270.0;0.012222222;36.3;0.134444444;49;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+NCR18650PD;2800;25;70;0.948;288.0;0.018055556;145.6;0.505555556;185;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;70;0.893;285.0;0.03754386;299.6;1.05122807;384;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;70;0.894;300.0;0.035333333;296.8;0.989333333;361;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;70;0.922;300.0;0.026;218.4;0.728;266;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;70;0.950;300.0;0.016666667;140;0.466666667;170;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;70;0.856;300.0;0.048;295.2;0.984;359;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;70;0.899;300.0;0.033666667;207.05;0.690166667;252;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;70;0.946;300.0;0.018;110.7;0.369;135;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;70;0.884;270.0;0.042962963;127.6;0.472592593;172;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;70;0.924;270.0;0.028148148;83.6;0.30962963;113;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;70;0.965;270.0;0.012962963;38.5;0.142592593;52;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+NCR18650PD;2800;25;80;0.949;288.0;0.017708333;142.8;0.495833333;181;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;80;0.892;285.0;0.037894737;302.4;1.061052632;387;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;80;0.918;300.0;0.027333333;229.6;0.765333333;279;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;80;0.949;300.0;0.017;142.8;0.476;174;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;80;0.825;300.0;0.058333333;358.75;1.195833333;436;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;80;0.891;300.0;0.036333333;223.45;0.744833333;272;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;80;0.945;300.0;0.018333333;112.75;0.375833333;137;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;80;0.867;270.0;0.049259259;146.3;0.541851852;198;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;80;0.903;270.0;0.035925926;106.7;0.395185185;144;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;80;0.942;270.0;0.021481481;63.8;0.236296296;86;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;80;0.761;406.2;0.058838011;489.95;1.206179222;440;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;50;85;0.751;407.5;0.061104294;510.45;1.252638037;457;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;90;0.946;288.0;0.01875;151.2;0.525;192;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;90;0.887;285.0;0.039649123;316.4;1.110175439;405;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.849;73.0;0.206849315;483.2;6.619178082;2,416;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.844;139.0;0.112230216;499.2;3.591366906;1,311;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.826;202.0;0.086138614;556.8;2.756435644;1,006;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.835;297.0;0.055555556;528;1.777777778;649;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.817;385.0;0.047532468;585.6;1.521038961;555;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;10;90;0.820;435.0;0.04137931;576;1.324137931;483;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.832;73.0;0.230136986;537.6;7.364383562;2,688;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.836;139.0;0.117985612;524.8;3.775539568;1,378;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.826;202.0;0.086138614;556.8;2.756435644;1,006;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.812;297.0;0.063299663;601.6;2.025589226;739;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.812;385.0;0.048831169;601.6;1.562597403;570;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;45;90;0.816;435.0;0.042298851;588.8;1.353563218;494;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.843;73.0;0.215068493;502.4;6.882191781;2,512;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.819;139.0;0.130215827;579.2;4.166906475;1,521;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.819;202.0;0.08960396;579.2;2.867326733;1,047;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.804;297.0;0.065993266;627.2;2.111784512;771;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.799;385.0;0.052207792;643.2;1.670649351;610;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650BD;3200;25;90;0.792;435.0;0.047816092;665.6;1.530114943;558;An evaluation study of different modelling techniques for calendar ageing prediction of lithium-ion batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;90;0.887;300.0;0.037666667;316.4;1.054666667;385;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;90;0.913;300.0;0.029;243.6;0.812;296;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;90;0.947;300.0;0.017666667;148.4;0.494666667;181;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;40;90;0.889;300.0;0.037;227.55;0.7585;277;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;90;0.943;300.0;0.019;116.85;0.3895;142;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;90;0.860;270.0;0.051851852;154;0.57037037;208;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;90;0.896;270.0;0.038518519;114.4;0.423703704;155;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;90;0.942;270.0;0.021481481;63.8;0.236296296;86;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;90;0.755;346.6;0.070686671;502.25;1.449076746;529;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;95;0.944;288.0;0.019444444;156.8;0.544444444;199;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;95;0.884;285.0;0.040701754;324.8;1.139649123;416;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;95;0.882;300.0;0.039333333;330.4;1.101333333;402;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;95;0.908;300.0;0.030666667;257.6;0.858666667;313;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;95;0.947;300.0;0.017666667;148.4;0.494666667;181;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;95;0.827;300.0;0.057666667;354.65;1.182166667;431;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;95;0.896;300.0;0.034666667;213.2;0.710666667;259;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;95;0.940;300.0;0.02;123;0.41;150;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;95;0.857;270.0;0.052962963;157.3;0.582592593;213;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;95;0.899;270.0;0.037407407;111.1;0.411481481;150;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;95;0.945;270.0;0.02037037;60.5;0.224074074;82;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+UR18650E;2050;50;95;0.747;346.6;0.072994807;518.65;1.496393537;546;A holistic aging model for Li(NiMnCo)O2 based 18650 lithium-ion batteries;NMC;Calendar;Keine Angabe
+NCR18650PD;2800;25;100;0.943;288.0;0.019791667;159.6;0.554166667;202;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;100;0.876;285.0;0.043508772;347.2;1.218245614;445;Calendar Aging of NCA Lithium-I;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;50;100;0.874;300.0;0.042;352.8;1.176;429;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;40;100;0.908;300.0;0.030666667;257.6;0.858666667;313;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+NCR18650PD;2800;25;100;0.944;300.0;0.018666667;156.8;0.522666667;191;Calendar Aging of Lithium-Ion Batteries;NCA;Calendar;Keine Angabe
+UR18650E;2050;50;100;0.766;300.0;0.078;479.7;1.599;584;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;40;100;0.813;300.0;0.062333333;383.35;1.277833333;466;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+UR18650E;2050;25;100;0.934;300.0;0.022;135.3;0.451;165;Calendar Aging of Lithium-Ion Batteries;NMC;Calendar;Keine Angabe
+APR18650M1A;1100;50;100;0.852;270.0;0.054814815;162.8;0.602962963;220;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;40;100;0.904;270.0;0.035555556;105.6;0.391111111;143;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+APR18650M1A;1100;25;100;0.943;270.0;0.021111111;62.7;0.232222222;85;Calendar Aging of Lithium-Ion Batteries;LFP;Calendar;Keine Angabe
+INR18650-26F;2600;60;100;0.949;30.0;0.17;132.6;4.42;1,613;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;100;0.883;60.0;0.195;304.2;5.07;1,851;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;60;100;0.723;90.0;0.307777778;720.2;8.002222222;2,921;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;60;100;0.961;30.0;0.13;97.5;3.25;1,186;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;100;0.942;60.0;0.096666667;145;2.416666667;882;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;100;0.928;90.0;0.08;180;2;730;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;60;100;0.744;120.0;0.213333333;640;5.333333333;1,947;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;60;100;1,016;30.0;-3383.333333;-2639000;-87966.66667;-32,107,833;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;100;0.984;60.0;0.026666667;41.6;0.693333333;253;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;100;0.931;90.0;0.076666667;179.4;1.993333333;728;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;60;100;0.871;120.0;0.1075;335.4;2.795;1,020;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;100;1,082;30.0;-3603.333333;-2162000;-72066.66667;-26,304,333;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;100;1,069;60.0;-1780;-2136000;-35600;-12,994,000;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;100;1,041;90.0;-1155.555556;-2080000;-23111.11111;-8,435,556;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;60;100;1,005;120.0;-836.6666667;-2008000;-16733.33333;-6,107,667;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+INR18650-26F;2600;50;100;0.969;100.0;0.031;80.6;0.806;294;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-26F;2600;50;100;0.897;150.0;0.068666667;267.8;1.785333333;652;Comparative Study on the Calendar Ageing;NMC;Calendar;Keine Angabe
+INR18650-25R;2500;50;100;1,122;100.0;-1121;-2802500;-28025;-10,229,125;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+INR18650-25R;2500;50;100;1,122;150.0;-747.3333333;-2802500;-18683.33333;-6,819,417;Comparative Study on the Calendar Ageing;NCA;Calendar;Keine Angabe
+UR18650ZY;2600;50;100;1,093;100.0;-1092;-2839200;-28392;-10,363,080;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+UR18650ZY;2600;50;100;1,081;150.0;-720;-2808000;-18720;-6,832,800;Comparative Study on the Calendar Ageing;LCO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;100;1,237;100.0;-1236;-2472000;-24720;-9,022,800;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+NITECORE 2000mAh (?);2000;50;100;1,240;150.0;-826;-2478000;-16520;-6,029,800;Comparative Study on the Calendar Ageing;LMO;Calendar;Keine Angabe
+APR18650M-A1;1100;30;10;1,012;35.0;-2888.571429;-1112100;-31774.28571;-11,597,614;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;10;1,008;65.0;-1549.230769;-1107700;-17041.53846;-6,220,162;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;10;1,007;105.0;-958.0952381;-1106600;-10539.04762;-3,846,752;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;10;1,006;140.0;-717.8571429;-1105500;-7896.428571;-2,882,196;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;26;0.998;30.0;0.006666667;2.2;0.073333333;27;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;26;0.996;65.0;0.006153846;4.4;0.067692308;25;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;26;0.993;105.0;0.006666667;7.7;0.073333333;27;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;26;0.990;140.0;0.007142857;11;0.078571429;29;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;40;0.995;30.0;0.016666667;5.5;0.183333333;67;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;40;0.988;65.0;0.018461538;13.2;0.203076923;74;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;40;0.981;105.0;0.018095238;20.9;0.199047619;73;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;40;0.974;140.0;0.018571429;28.6;0.204285714;75;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;90;0.991;30.0;0.03;9.9;0.33;120;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;90;0.983;65.0;0.026153846;18.7;0.287692308;105;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;90;0.977;105.0;0.021904762;25.3;0.240952381;88;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;90;0.970;140.0;0.021428571;33;0.235714286;86;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;95;0.988;30.0;0.04;13.2;0.44;161;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;95;0.979;65.0;0.032307692;23.1;0.355384615;130;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;95;0.970;105.0;0.028571429;33;0.314285714;115;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+APR18650M-A1;1100;30;95;0.963;140.0;0.026428571;40.7;0.290714286;106;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;LFP;Calendar;Keine Angabe
+NCR18650B;3200;30;28;1,036;35.0;-2957.142857;-3312000;-94628.57143;-34,539,429;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;28;1,027;65.0;-1578.461538;-3283200;-50510.76923;-18,436,431;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;28;1,019;105.0;-969.5238095;-3257600;-31024.7619;-11,324,038;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;28;1,011;140.0;-721.4285714;-3232000;-23085.71429;-8,426,286;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;45;1,015;30.0;-3380;-3244800;-108160;-39,478,400;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;45;1,006;65.0;-1546.153846;-3216000;-49476.92308;-18,059,077;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;45;0.999;105.0;0.000952381;3.2;0.03047619;11;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;45;0.994;140.0;0.004285714;19.2;0.137142857;50;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;60;0.991;30.0;0.03;28.8;0.96;350;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;60;0.984;65.0;0.024615385;51.2;0.787692308;288;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;60;0.979;105.0;0.02;67.2;0.64;234;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;60;0.974;140.0;0.018571429;83.2;0.594285714;217;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;70;0.991;30.0;0.03;28.8;0.96;350;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;70;0.983;65.0;0.026153846;54.4;0.836923077;305;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;70;0.977;105.0;0.021904762;73.6;0.700952381;256;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;70;0.973;140.0;0.019285714;86.4;0.617142857;225;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;100;0.986;30.0;0.046666667;44.8;1.493333333;545;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;100;0.976;65.0;0.036923077;76.8;1.181538462;431;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;100;0.969;105.0;0.02952381;99.2;0.944761905;345;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+NCR18650B;3200;30;100;0.963;140.0;0.026428571;118.4;0.845714286;309;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NCA;Calendar;Keine Angabe
+UR18650AAN;2150;30;14;1,008;35.0;-2877.142857;-2165050;-61858.57143;-22,578,379;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;14;1,005;65.0;-1544.615385;-2158600;-33209.23077;-12,121,369;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;14;1,000;105.0;-951.4285714;-2147850;-20455.71429;-7,466,336;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;14;0.993;140.0;0.005;15.05;0.1075;39;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;60;1,000;30.0;-3330;-2147850;-71595;-26,132,175;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;60;0.999;65.0;0.001538462;2.15;0.033076923;12;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;60;0.997;105.0;0.002857143;6.45;0.061428571;22;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;60;0.996;140.0;0.002857143;8.6;0.061428571;22;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;70;0.996;30.0;0.013333333;8.6;0.286666667;105;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;70;0.992;65.0;0.012307692;17.2;0.264615385;97;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;70;0.990;105.0;0.00952381;21.5;0.204761905;75;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;70;0.987;140.0;0.009285714;27.95;0.199642857;73;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;90;0.993;30.0;0.023333333;15.05;0.501666667;183;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;90;0.989;65.0;0.016923077;23.65;0.363846154;133;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;90;0.987;105.0;0.012380952;27.95;0.266190476;97;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;90;0.984;140.0;0.011428571;34.4;0.245714286;90;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;100;0.988;30.0;0.04;25.8;0.86;314;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;100;0.984;65.0;0.024615385;34.4;0.529230769;193;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;100;0.981;105.0;0.018095238;40.85;0.389047619;142;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650AAN;2150;30;100;0.978;140.0;0.015714286;47.3;0.337857143;123;Evaluating the Aging-Induced Voltage Slippery as Cause for Float Currents of Lithium-ion Cells;NMC;Calendar;Keine Angabe
+UR18650E;2050;50;0;0.954;418.6;0.010989011;94.3;0.225274725;82;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;10;0.932;417.6;0.016283525;139.4;0.333812261;122;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;20;0.962;107.9;0.035217794;77.9;0.721964782;264;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;30;0.852;408.2;0.036256737;303.4;0.743263106;271;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;50;0.845;407.7;0.038018151;317.75;0.779372087;284;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;60;0.924;107.8;0.070500928;155.8;1.445269017;528;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;70;0.804;417.8;0.046912398;401.8;0.961704165;351;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;80;0.763;419.6;0.056482364;485.85;1.157888465;423;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;85;0.748;418.1;0.060272662;516.6;1.235589572;451;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;90;0.756;356.2;0.068500842;500.2;1.404267266;513;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;95;0.743;353.4;0.072722128;526.85;1.490803622;544;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;100;0.551;157.3;0.285441831;920.45;5.851557533;2,136;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;35;50;0.955;344.6;0.013058619;92.25;0.267701683;98;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;35;50;0.952;344.6;0.013929193;98.4;0.285548462;104;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;40;50;0.930;342.8;0.02042007;143.5;0.418611435;153;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;40;50;0.926;342.5;0.021605839;151.7;0.442919708;162;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;50;0.846;407.5;0.037791411;315.7;0.774723926;283;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+UR18650E;2050;50;50;0.844;407.5;0.038282209;319.8;0.784785276;286;Calendar and cycle life study of Li(NiMnCo)O2-based 18650 lithiumion batteries;NMC;Calendar;float condition
+NCR188650BD;3200;24;90;0.846;576.0;0.026736111;492.8;0.855555556;312;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 1, C/2;open circuit voltage
+NCR188650BD;3200;24;90;0.870;576.0;0.022569444;416;0.722222222;264;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 1, C2;open circuit voltage
+NCR188650BD;3200;24;90;0.876;576.0;0.021527778;396.8;0.688888889;251;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 1, C/2;open circuit voltage
+NCR188650BD;3200;24;90;0.891;576.0;0.018923611;348.8;0.605555556;221;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 2, C/4;open circuit voltage
+NCR188650BD;3200;24;90;0.892;576.0;0.01875;345.6;0.6;219;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 2, C/4;open circuit voltage
+NCR188650BD;3200;24;90;0.896;576.0;0.018055556;332.8;0.577777778;211;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;1d Cycling + 5 days Calendar, Group 2, C/4;open circuit voltage
+NCR188650BD;3200;24;90;0.831;576.0;0.029340278;540.8;0.938888889;343;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 3, C/2;open circuit voltage
+NCR188650BD;3200;24;90;0.838;576.0;0.028125;518.4;0.9;329;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 3, C/2;open circuit voltage
+NCR188650BD;3200;24;90;0.839;576.0;0.027951389;515.2;0.894444444;326;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 3, C/2;open circuit voltage
+NCR188650BD;3200;24;90;0.895;576.0;0.018229167;336;0.583333333;213;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 4, C/4;open circuit voltage
+NCR188650BD;3200;24;90;0.898;576.0;0.017708333;326.4;0.566666667;207;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 4, C/4;open circuit voltage
+NCR188650BD;3200;24;90;0.900;576.0;0.017361111;320;0.555555556;203;nvestigation of Path-Dependent Degradation in Lithium-Ion Batteries;NCA;2d Cycling + 10 days Calendar, Group 4, C/4;open circuit voltage
+NCR188650B;3200;25;100;0.982;63;0.028571429;57.6;0.914285714;334;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;25;100;0.965;63;0.055555556;112;1.777777778;649;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;40;100;0.96;63;0.063492063;128;2.031746032;742;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;40;80;0.978;63;0.034920635;70.4;1.117460317;408;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;60;80;0.961;63;0.061904762;124.8;1.980952381;723;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;60;80;0.95;63;0.079365079;160;2.53968254;927;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;25;50;0.996;63;0.006349206;12.8;0.203174603;74;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;25;50;0.985;63;0.023809524;48;0.761904762;278;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;40;50;0.973;63;0.042857143;86.4;1.371428571;501;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;60;20;0.988;63;0.019047619;38.4;0.60952381;222;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;25;100;0.977;108;0.021296296;73.6;0.681481481;249;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;25;100;0.963;108;0.034259259;118.4;1.096296296;400;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;40;100;0.945;108;0.050925926;176;1.62962963;595;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;40;80;0.972;108;0.025925926;89.6;0.82962963;303;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3200;60;80;0.95;108;0.046296296;160;1.481481481;541;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3201;60;80;0.934;108;0.061111111;211.266;1.956166667;714;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3202;25;50;0.991;108;0.008333333;28.818;0.266833333;97;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3203;25;50;0.973;108;0.025;86.481;0.80075;292;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3204;40;50;0.958;108;0.038888889;134.568;1.246;455;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3206;60;20;0.992;108;0.007407407;25.648;0.237481481;87;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
+NCR188650B;3207;60;20;0.977;108;0.021296296;73.761;0.682972222;249;Aging of Tesla’s 18650 Lithium-Ion Cells: Correlating Solid-Electrolyte-Interphase Evolution with Fading in Capacity and Power;NCA;Calendar;Keine Angabe
