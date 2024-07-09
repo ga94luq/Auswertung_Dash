@@ -4,7 +4,7 @@ from dash import dcc, html, Dash
 from dash.dependencies import Input, Output
 import re
 
-Pfad = 'C:/Users/SimonHofmann/Downloads/Daten_CSV.csv'
+Pfad = 'https://raw.githubusercontent.com/ga94luq/Auswertung_Dash/main/Daten_CSV.csv'
 df = pd.read_csv(Pfad, delimiter=';')
 df = pd.DataFrame(df)
 def extract_last_three_letters(cell):
