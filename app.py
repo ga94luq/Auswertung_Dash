@@ -4,17 +4,18 @@ from dash import dcc, html, Dash
 from dash.dependencies import Input, Output
 import re
 
-Pfad = 'https://raw.githubusercontent.com/ga94luq/Auswertung_Dash/main/Daten_CSV.csv'
+Pfad = 'C:/Users/SimonHofmann/Downloads/Daten_CSV.csv'
 df = pd.read_csv(Pfad, delimiter=';')
 df = pd.DataFrame(df)
 def extract_last_three_letters(cell):
     # Nur Buchstaben extrahieren
     letters = re.sub(r'[^a-zA-Z]', '', cell)
-    # Die letzten drei Buchstaben zurückgeben
+
     return letters[-3:]
 
 
 df['Zellkürzel'] = df['Zelle'].apply(extract_last_three_letters)
+df['Temp_Invers'] = 1/df['Temperatur']
 data = df
 
 
@@ -26,19 +27,12 @@ Breite_Boxen = '300px'
 # Layout der Dash App
 app.layout = html.Div([
     html.H1('Auswertung der Literatur', style={'text-align': 'center', 'color': 'white'}),
-   
-    #dcc.Input(id='Breite-Plot', type='number', value=1500),
-    #html.Div(id='Breite-desPlot'),
-    #dcc.Input(id='Hight-Plot', type='number', value=1250),
-    #html.Div(id='Hight-Plot'),
-
-
     html.Label('Zelle:', style={'color': 'white'}),
     dcc.Checklist(
         id='cell-checklist',
         options=[{'label': cell, 'value': cell} for cell in df['Zelle'].unique()],
         #value=df['Zelle'].unique().tolist(),
-        value=['NCR18650PD', 'NCR18650B', 'NCR18650BD', 'UR18650E'],
+        value=['NCR18650PD', 'NCR18650B', 'NCR18650BD'],
         inline=True,  
         style={'display': 'flex', 'flex-wrap': 'wrap', 'color': 'white'}
     ),
@@ -83,6 +77,17 @@ app.layout = html.Div([
             value='Rel. Kapa. % / Tag',
             clearable=True,
             multi=False,
+            style={'color': 'black', 'width': Breite_Boxen}
+        ),
+    ], style={'margin-bottom': '20px'}),
+    html.Div([
+        html.Label('Logarithmisch:', style={'color': 'white'}),
+        dcc.Checklist(
+            id='log-y-axis',
+            options=[
+                {'label': 'Logarithmische y-Achse', 'value': 'log'}
+            ],
+            value=[],
             style={'color': 'black', 'width': Breite_Boxen}
         ),
     ], style={'margin-bottom': '20px'}),
@@ -157,7 +162,7 @@ app.layout = html.Div([
             id='Alterungsdauer-input',
             min=1,
             max=200,
-            step=1,  # Anpassung je nach Bedarf
+            step=1,  
             value=1,
             tooltip={"placement": "bottom", "always_visible": False},
             marks={i: f'{i}' for i in [0, 30, 60, 90, 120, 150, 180]}
@@ -170,7 +175,7 @@ app.layout = html.Div([
             id='DauerMin_Range',
             min=df['Dauer d. Alterung in Tagen'].min(),
             max=df['Dauer d. Alterung in Tagen'].max(),
-            step=1,  # Anpassung je nach Bedarf
+            step=1, 
             value=[df['Dauer d. Alterung in Tagen'].min(), df['Dauer d. Alterung in Tagen'].max()],
             tooltip={"placement": "bottom", "always_visible": True},
             marks=None
@@ -182,7 +187,7 @@ app.layout = html.Div([
             id='Temperatur_Range',
             min=df['Temperatur'].min(),
             max=df['Temperatur'].max(),
-            step=1,  # Anpassung je nach Bedarf
+            step=1,  
             value=[df['Temperatur'].min(), df['Temperatur'].max()],
             tooltip={"placement": "bottom", "always_visible": True},
             marks={i: f'{i}' for i in [0, 25, 30, 40, 45, 50, 60]}
@@ -223,13 +228,14 @@ Output('scatter-plot-without-facet', 'figure'),
  Input('Alterungsdauer-input', 'value'),
  Input('DauerMin_Range', 'value'),
  Input('Y_Achse_dropdown', 'value'),
+ Input('log-y-axis', 'value'),
  Input('X_Achse_dropdown', 'value'),
  Input('Temperatur_Range', 'value'), 
  Input('Beschriftungs-dropdown', 'value')]
 )
 
 def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAuswahl, ColAuswahl, Farbauswahl, Styleauswahl,
-                        Informationsauswahl, Dauer_in_Tagen, DauerMin, Y_Achse, X_Achse, Temperatur, Beschriftung):
+                        Informationsauswahl, Dauer_in_Tagen, DauerMin, Y_Achse, Logarithmisch, X_Achse, Temperatur, Beschriftung):
     filtered_df = df[
         df['Zelle'].isin(selected_cells) &
         df['Paper'].isin(selected_papers) &
@@ -310,9 +316,9 @@ def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAu
                 ),
                 height=Hoehe,  # Set the height of the plot
                 width=Breite,  # Set the width of the plot
-                plot_bgcolor='grey',  # Dark background
-                paper_bgcolor='grey',  # Dark background
-                font_color='white',  # White font color
+                plot_bgcolor='lightblue',  # Dark background
+                paper_bgcolor='lightblue',  # Dark background
+                font_color='black',  # White font color
                 legend = dict(
                     orientation="h",
                     yanchor="bottom",
@@ -335,9 +341,9 @@ def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAu
                 ),
                 height=Hoehe,  # Set the height of the plot
                 width=Breite,  # Set the width of the plot
-                plot_bgcolor='grey',  # Dark background
-                paper_bgcolor='grey',  # Dark background
-                font_color='white',  # White font color
+                plot_bgcolor='lightblue',  # Dark background
+                paper_bgcolor='lightblue',  # Dark background
+                font_color='black',  # White font color
                 legend=dict(
                     orientation="h",
                     yanchor="bottom",
@@ -419,9 +425,9 @@ def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAu
                 ),
                 height=Hoehe,  # Set the height of the plot
                 width=Breite,  # Set the width of the plot
-                plot_bgcolor='grey',  # Dark background
-                paper_bgcolor='grey',  # Dark background
-                font_color='white',  # White font color
+                plot_bgcolor='lightblue',  # Dark background
+                paper_bgcolor='lightblue',  # Dark background
+                font_color='black',  # White font color
                 legend = dict(
                     orientation="h",
                     yanchor="bottom",
@@ -444,9 +450,9 @@ def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAu
                     ),
                     height=Hoehe,  # Set the height of the plot
                     width=Breite,  # Set the width of the plot
-                    plot_bgcolor='grey',  # Dark background
-                    paper_bgcolor='grey',  # Dark background
-                    font_color='white',  # White font color
+                    plot_bgcolor='lightblue',  # Dark background
+                    paper_bgcolor='lightblue',  # Dark background
+                    font_color='black',  # White font color
                     legend=dict(
                         orientation="h",
                         yanchor="bottom",
@@ -456,6 +462,11 @@ def update_scatter_plot(selected_cells, selected_papers, selected_chemies, RowAu
                     )
             )
             fig.update_traces(textposition='top center')
+    
+    if 'log' in Logarithmisch:
+        fig.update_yaxes(type='log')
+    else:
+        fig.update_yaxes(type='linear')
 
     return fig
 
